@@ -1,0 +1,83 @@
+body {
+  width: 300px;
+  padding: 10px;
+}
+
+h1, h2 {
+  color: #03045e;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: #00b4d8;
+  line-height: 1.5;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+select {
+  flex: 1;
+}
+
+button {
+  background-color: #00A5cf;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #08b4df;
+}
+
+select, button {
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.deleteButton {
+  border: none;
+  background-color: #e3e3e3;
+  color: #999;
+  cursor: pointer;
+}
